@@ -1,0 +1,31 @@
+.brand__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      li {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0px 0px 2px 2px #ddd;
+        background-color: #3350c2;
+        a {
+          color: white;
+          font-size: 16px;
+          font-family: Poppins;
+        }
+        a.active {
+          color: red;
+        }
+      }
+    }
+  }
+}
